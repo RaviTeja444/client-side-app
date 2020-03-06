@@ -3,6 +3,9 @@ QUnit.module('MAIN MODULE', {})  // group all these tests together
 QUnit.test('TEST interest', assert => {
   assert.equal(interest(100, 10,5), 50, 'simple interest')
   assert.equal(interest(-50,8,2), -8, 'Negative interest')
+  assert.equal(interest(0,8,2), 0, 'Zero principle')
+  assert.equal(interest(8,8,6), 3.84, 'decimal interest')
+  assert.equal(interest(0,0,0), 0, 'zero rate')
 })
 
 QUnit.config.autostart = false 

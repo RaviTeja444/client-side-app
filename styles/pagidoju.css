@@ -1,0 +1,75 @@
+#profile{
+    height:25%;
+    width:15%;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 50%;
+    flex-basis: auto;
+    display: flex;
+}
+
+.navbar{
+    padding-left: 23em;
+   
+}
+
+li{
+    padding-top: 1.5em;
+    display:inline-block;
+    font-size: x-large;
+}
+
+hr{
+    border-color: solid black;
+}
+
+aside{
+    display: block;
+    padding-left:14em;
+    padding-top:6em;
+}
+
+button{
+    text-align: center;
+    font-size: large;
+}
+
+footer{
+    text-align:center;
+}
+
+#myform{
+    padding-left:30em;
+}
+#submit{
+    margin-left:10em;
+}
+#area{
+    margin-left: 5.5em;
+}
+
+
+a:hover{
+    color:blue;
+    text-decoration: none;
+}
+.mybutton{
+    height: 60px;
+    width:250px;
+}
+#fb{
+    height: 15px;
+    width:15px;
+}
+#lin{
+    height: 15px;
+    width:15px;
+}
+#git{
+    height: 15px;
+    width:15px;
+}
+#getscore{
+    margin-left: 4.5em;
+}
